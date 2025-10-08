@@ -1,0 +1,6 @@
+Device ID: {{ device_id }}
+  IP address: {{ ip_address | default('ip_not_found') }}
+Platform: Cisco ,  Capabilities: {{ capabilities | ORPHRASE }}
+Cisco IOS Software, vios_l2 Software ({{ platform | default('Cisco') }}), Version {{ os_version }}, TEST ENGINEERING ESTG_WEEKLY BUILD, synced to  END_OF_FLO_ISP
+Interface: {{ local_interface }},  Port ID (outgoing port): {{ remote_interface }}
+Holdtime : {{ hold_time }} sec

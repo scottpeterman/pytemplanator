@@ -1,0 +1,3 @@
+{{ vendor }} Nexus Operating System ({{ platform }}) Software
+  system:    version {{ os_version }}
+  Processor Board ID {{ serial_number }}

@@ -1,0 +1,4 @@
+Device ID: {{ device_id }}
+  IP address: {{ ip_address | default('ip_not_found') }}
+Platform: {{ platform | ORPHRASE | default('no_platform_info') }},  Capabilities: {{ capabilities | ORPHRASE | default('no_capabilities_found') }}
+Interface: {{ local_interface }},  Port ID (outgoing port): {{ remote_interface }}
